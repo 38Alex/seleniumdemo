@@ -23,7 +23,6 @@ public class QAPosition {
 	private JavascriptExecutor jse;
 	ExtentReports report;
 	ExtentTest test;
-//	HomePageFactory homePage;
 	HomePage hp;
 	CareersPage cp;
 
@@ -35,7 +34,6 @@ public class QAPosition {
 		System.setProperty("webdriver.gecko.driver", Constants.geckoLocation);
 		driver = new FirefoxDriver();
 		jse = (JavascriptExecutor) driver;
-//		homePage = new HomePageFactory(driver, test);
 		hp = new HomePage(driver, test);
 		cp = new CareersPage(driver);
 		test.log(LogStatus.INFO, "Browser Started");

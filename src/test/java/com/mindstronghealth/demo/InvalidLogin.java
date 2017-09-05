@@ -79,7 +79,7 @@ public class InvalidLogin {
 
 	@Test
 	/**
-	 * Login with empty field should causes warning message: 
+	 * Login with empty field should cause warning message: 
 	 * "Please fill out this field."
 	 */
 	
@@ -138,7 +138,7 @@ public class InvalidLogin {
 
 	@Test
 	/**
-	 * Login with unregistered email should causes error message: 
+	 * Login with unregistered email should cause error message: 
 	 * "Error: No account found for <email>"
 	 */
 
