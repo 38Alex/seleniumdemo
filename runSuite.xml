@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DemoTestSuite" parallel="classes" thread-count="2">
+	<test name="DemoTest">
+		<parameter name="browserType" value="firefox" />
+		<classes>
+			<class name="com.mindstronghealth.demo.InvalidLogin"></class>
+			<class name="com.mindstronghealth.demo.QAPosition"></class>
+		</classes>
+	</test>
+</suite>

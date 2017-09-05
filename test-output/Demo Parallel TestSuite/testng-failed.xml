@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Demo Parallel TestSuite]" parallel="tests">
+  <test name="Chrome Test(failed)" parallel="tests">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.mindstronghealth.demo.InvalidLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="emptyField"/>
+        </methods>
+      </class> <!-- com.mindstronghealth.demo.InvalidLogin -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test name="FireFox Test(failed)" parallel="tests">
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="com.mindstronghealth.demo.InvalidLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="emptyField"/>
+        </methods>
+      </class> <!-- com.mindstronghealth.demo.InvalidLogin -->
+    </classes>
+  </test> <!-- FireFox Test(failed) -->
+  <test name="Opera Test(failed)" parallel="tests">
+    <parameter name="browserType" value="opera"/>
+    <classes>
+      <class name="com.mindstronghealth.demo.InvalidLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="emptyField"/>
+        </methods>
+      </class> <!-- com.mindstronghealth.demo.InvalidLogin -->
+    </classes>
+  </test> <!-- Opera Test(failed) -->
+</suite> <!-- Failed suite [Demo Parallel TestSuite] -->

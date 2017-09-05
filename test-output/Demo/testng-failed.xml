@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Demo]">
+  <test name="FireFox Test(failed)">
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="com.mindstronghealth.demo.InvalidLogin">
+        <methods>
+          <include name="unregisteredEmail"/>
+          <include name="beforeClass"/>
+          <include name="emptyField"/>
+        </methods>
+      </class> <!-- com.mindstronghealth.demo.InvalidLogin -->
+    </classes>
+  </test> <!-- FireFox Test(failed) -->
+</suite> <!-- Failed suite [Demo] -->

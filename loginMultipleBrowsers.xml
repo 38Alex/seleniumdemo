@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Demo Parallel TestSuite" parallel="tests" thread-count="3">
+	<test name="FireFox Test">
+		<parameter name="browserType" value="firefox" />
+		<classes>
+			<class name="com.mindstronghealth.demo.InvalidLogin">
+			</class>
+		</classes>
+	</test>
+	<test name="Chrome Test">
+		<parameter name="browserType" value="chrome" />
+		<classes>
+			<class name="com.mindstronghealth.demo.InvalidLogin">
+			</class>
+		</classes>
+	</test>
+	<test name="Opera Test">
+		<parameter name="browserType" value="opera" />
+		<classes>
+			<class name="com.mindstronghealth.demo.InvalidLogin">
+			</class>
+		</classes>
+	</test>
+</suite>

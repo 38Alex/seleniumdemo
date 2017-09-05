@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Demo" duration-ms="15591" started-at="2017-09-05T02:51:17Z" finished-at="2017-09-05T02:51:33Z">
+    <groups>
+    </groups>
+    <test name="FireFox Test" duration-ms="15591" started-at="2017-09-05T02:51:17Z" finished-at="2017-09-05T02:51:33Z">
+      <class name="com.mindstronghealth.demo.InvalidLogin">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.mindstronghealth.demo.InvalidLogin@53b32d7]" name="beforeClass" is-config="true" duration-ms="13416" started-at="2017-09-04T19:51:17Z" finished-at="2017-09-04T19:51:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="emptyField()[pri:0, instance:com.mindstronghealth.demo.InvalidLogin@53b32d7]" name="emptyField" duration-ms="1380" started-at="2017-09-04T19:51:30Z" finished-at="2017-09-04T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyField -->
+        <test-method status="PASS" signature="unregisteredEmail()[pri:0, instance:com.mindstronghealth.demo.InvalidLogin@53b32d7]" name="unregisteredEmail" duration-ms="373" started-at="2017-09-04T19:51:32Z" finished-at="2017-09-04T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unregisteredEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindstronghealth.demo.InvalidLogin@53b32d7]" name="tearDown" is-config="true" duration-ms="405" started-at="2017-09-04T19:51:32Z" finished-at="2017-09-04T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindstronghealth.demo.InvalidLogin -->
+    </test> <!-- FireFox Test -->
+  </suite> <!-- Demo -->
+</testng-results>
